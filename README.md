@@ -16,6 +16,9 @@ For the purpose of this assignment, I used machine learning and neural networks 
 - I was able to achieve the target model performance on the third try through a combination of changing the number of neurons in the layers and changing the number of training epochs. The ideal numbers were 50 and 25 for hidden layers 1 and 2 respectively and 75 epochs. This gave me an accuracy of 76%. 
 - The steps I took to change the model performance were first to change the parameters of replacement values when first cleaning the data. This did not make much of a difference. I then changed the number of training epochs to 150, which did not help. I finally changed epochs to 75 and changed the number of neurons in each hidden layer and was able to achieve the target. 
 
+![target_accuracy](https://github.com/noorsami12/Neural_Network_Charity_Analysis/blob/608cb182ff96019ce6b3dcaa63d8e08540bca481/target_accuracy.png)
+
+
 ## Summary
 
 Overall, my deep learning model was able to achieve 76% accuracy with 85% loss. Another effective model to investigate the success of investments would be using a confusion matrix. A confusion matrix would show us a breakdown of predictions on whether to invest or not. We could derive various statistical measures from the matrix, such as accuracy, precision, sensitivity, and specificity. It would also be helpful to see the misclassification rate and the null error rate so we could accurately determine the effectiveness of our model. 
