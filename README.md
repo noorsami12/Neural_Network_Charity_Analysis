@@ -6,12 +6,12 @@ For the purpose of this assignment, I used machine learning and neural networks 
 
 ## Results
 
-####Data Preprocessing
+#### Data Preprocessing
 - For my model, the target variable is the “is_successful” column which determines whether or not the investment was successful or not based on binary values. 
 - The variables that are the features for the model are the length of the scaled data. 
 - There are no variables that could be removed from the data. 
 
-####Compiling, Training, and Evaluating the Model
+#### Compiling, Training, and Evaluating the Model
 - I selected 10 nodes for hidden layer 1 and 5 nodes for hidden layer 2 to start with. I included two hidden layers and an output layer. However, this gave me an accuracy below 75% so I decided to optimize the model by increasing the number of nodes. I changed layer 1’s nodes to 50 and layer 2’s nodes to 25. I kept the same number of layers. This was much more successful. 
 - I was able to achieve the target model performance on the third try through a combination of changing the number of neurons in the layers and changing the number of training epochs. The ideal numbers were 50 and 25 for hidden layers 1 and 2 respectively and 75 epochs. This gave me an accuracy of 76%. 
 - The steps I took to change the model performance were first to change the parameters of replacement values when first cleaning the data. This did not make much of a difference. I then changed the number of training epochs to 150, which did not help. I finally changed epochs to 75 and changed the number of neurons in each hidden layer and was able to achieve the target. 
